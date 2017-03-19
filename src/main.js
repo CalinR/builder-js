@@ -24,7 +24,7 @@ class Main {
     loop(){
         this.updateDeltaTime();
         this.birdsEyeCamera.render();
-        window.requestAnimationFrame(() => this.loop());
+        // window.requestAnimationFrame(() => this.loop());
     }
 }
 

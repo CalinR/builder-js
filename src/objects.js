@@ -36,8 +36,6 @@ export class Sector {
             }
         }
 
-        // console.log(sortedLinedefs);
-
         return sortedLinedefs;
     }
 

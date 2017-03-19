@@ -132,8 +132,6 @@ var Sector = exports.Sector = function () {
                         sortedLinedefs.push(linedef);
                     }
                 }
-
-                // console.log(sortedLinedefs);
             } catch (err) {
                 _didIteratorError = true;
                 _iteratorError = err;
@@ -348,6 +346,34 @@ var BirdsEyeCamera = function (_Camera) {
     }
 
     _createClass(BirdsEyeCamera, [{
+        key: 'intersect',
+        value: function intersect(a, b, c, d) {
+            var cd = {
+                left: c[0] < d[0] ? c[0] : d[0],
+                right: c[0] < d[0] ? d[0] : c[0]
+            };
+            var ab = {
+                left: a[0] < b[0] ? a[0] : b[0],
+                right: a[0] < b[0] ? b[0] : a[0]
+            };
+
+            var dy1 = b[1] - a[1]; // b.y - a.y
+            var dx1 = b[0] - a[0]; // b.x - a.x
+            var dy2 = d[1] - c[1]; // d.y - c.y
+            var dx2 = d[0] - c[0]; // d.x - c.x
+
+            if (dy1 * dx1 == dy2 * dx1) {
+                // no point
+            } else {
+                var x = ((c[1] - a[1]) * dx1 * dx2 + dy1 * dx2 * a[0] - dy2 * dx1 * c[0]) / (dy1 * dx2 - dy2 * dx1);
+                var y = a[1] + dy1 / dx1 * (x - a[0]);
+
+                if (x > cd.left && x < cd.right && x > ab.left && x < ab.right) {
+                    return { x: x, y: y };
+                }
+            }
+        }
+    }, {
         key: 'render',
         value: function render() {
             var center = this.center;
@@ -444,6 +470,42 @@ var BirdsEyeCamera = function (_Camera) {
                                 }
                             }
                         }
+
+                        var _iteratorNormalCompletion4 = true;
+                        var _didIteratorError4 = false;
+                        var _iteratorError4 = undefined;
+
+                        try {
+                            for (var _iterator4 = sector.linedefs[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {
+                                var linedef = _step4.value;
+
+                                var _points = _objects.LineDef.transformPoints(linedef, origin);
+                                // console.log(points);
+                                var intersection = this.intersect([_points.start.x, _points.start.y], [_points.end.x, _points.end.y], [center.x, center.y], [0, 0]);
+                                // let intersection1 = this.intersect(points.start.x, points.start.y, points.end.x, points.end.y, -0.0001,0.0001, -20,5);
+                                // let intersection2 = this.intersect(points.start.x, points.start.y, points.end.x, points.end.y, 0.0001,0.0001, 20,5);
+                                if (intersection) {
+                                    this.context.fillStyle = 'red';
+                                    this.context.fillRect(center.x - intersection.x - 2, center.y - intersection.y - 2, 4, 4);
+                                }
+                                console.log(intersection);
+                            }
+                        } catch (err) {
+                            _didIteratorError4 = true;
+                            _iteratorError4 = err;
+                        } finally {
+                            try {
+                                if (!_iteratorNormalCompletion4 && _iterator4.return) {
+                                    _iterator4.return();
+                                }
+                            } finally {
+                                if (_didIteratorError4) {
+                                    throw _iteratorError4;
+                                }
+                            }
+                        }
+
+                        break;
                     }
                 } catch (err) {
                     _didIteratorError = true;
@@ -462,6 +524,20 @@ var BirdsEyeCamera = function (_Camera) {
 
                 this.context.fillStyle = 'red';
                 this.context.fillRect(center.x - 2, center.y - 2, 4, 4);
+
+                this.context.beginPath();
+                this.context.lineWidth = 1;
+                this.context.moveTo(center.x, center.y);
+                this.context.lineTo(0, 0);
+                this.context.stroke();
+                this.context.closePath();
+
+                this.context.beginPath();
+                this.context.lineWidth = 1;
+                this.context.moveTo(center.x, center.y);
+                this.context.lineTo(this.width, 0);
+                this.context.stroke();
+                this.context.closePath();
             }
         }
     }]);
@@ -2006,13 +2082,9 @@ var Main = function () {
     }, {
         key: 'loop',
         value: function loop() {
-            var _this = this;
-
             this.updateDeltaTime();
             this.birdsEyeCamera.render();
-            window.requestAnimationFrame(function () {
-                return _this.loop();
-            });
+            // window.requestAnimationFrame(() => this.loop());
         }
     }]);
 
