@@ -1,0 +1,1028 @@
+{
+	"sectors": [
+		{
+			"id": 0,
+			"linedefs": [
+				{
+					"id": 0,
+					"startVertex": {
+						"id": 0,
+						"x": 112,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 1,
+						"x": 128,
+						"y": 80
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 1,
+					"startVertex": {
+						"id": 1,
+						"x": 128,
+						"y": 80
+					},
+					"endVertex": {
+						"id": 2,
+						"x": 160,
+						"y": 80
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 2,
+					"startVertex": {
+						"id": 2,
+						"x": 160,
+						"y": 80
+					},
+					"endVertex": {
+						"id": 3,
+						"x": 176,
+						"y": 96
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 3,
+					"startVertex": {
+						"id": 3,
+						"x": 176,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 4,
+						"x": 176,
+						"y": 128
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 4,
+					"startVertex": {
+						"id": 4,
+						"x": 176,
+						"y": 128
+					},
+					"endVertex": {
+						"id": 5,
+						"x": 160,
+						"y": 144
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 5,
+					"startVertex": {
+						"id": 5,
+						"x": 160,
+						"y": 144
+					},
+					"endVertex": {
+						"id": 6,
+						"x": 128,
+						"y": 144
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 6,
+					"startVertex": {
+						"id": 6,
+						"x": 128,
+						"y": 144
+					},
+					"endVertex": {
+						"id": 7,
+						"x": 112,
+						"y": 128
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 7,
+					"startVertex": {
+						"id": 7,
+						"x": 112,
+						"y": 128
+					},
+					"endVertex": {
+						"id": 0,
+						"x": 112,
+						"y": 96
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 1,
+			"linedefs": [
+				{
+					"id": 8,
+					"startVertex": {
+						"id": 3,
+						"x": 176,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 8,
+						"x": 256,
+						"y": 96
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 9,
+					"startVertex": {
+						"id": 8,
+						"x": 256,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 9,
+						"x": 256,
+						"y": 128
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 10,
+					"startVertex": {
+						"id": 9,
+						"x": 256,
+						"y": 128
+					},
+					"endVertex": {
+						"id": 4,
+						"x": 176,
+						"y": 128
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 3,
+					"startVertex": {
+						"id": 3,
+						"x": 176,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 4,
+						"x": 176,
+						"y": 128
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 2,
+			"linedefs": [
+				{
+					"id": 11,
+					"startVertex": {
+						"id": 8,
+						"x": 256,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 10,
+						"x": 272,
+						"y": 80
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 12,
+					"startVertex": {
+						"id": 10,
+						"x": 272,
+						"y": 80
+					},
+					"endVertex": {
+						"id": 11,
+						"x": 304,
+						"y": 80
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 13,
+					"startVertex": {
+						"id": 11,
+						"x": 304,
+						"y": 80
+					},
+					"endVertex": {
+						"id": 12,
+						"x": 320,
+						"y": 96
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 14,
+					"startVertex": {
+						"id": 12,
+						"x": 320,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 13,
+						"x": 320,
+						"y": 128
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 15,
+					"startVertex": {
+						"id": 13,
+						"x": 320,
+						"y": 128
+					},
+					"endVertex": {
+						"id": 14,
+						"x": 304,
+						"y": 144
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 16,
+					"startVertex": {
+						"id": 14,
+						"x": 304,
+						"y": 144
+					},
+					"endVertex": {
+						"id": 15,
+						"x": 272,
+						"y": 144
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 17,
+					"startVertex": {
+						"id": 15,
+						"x": 272,
+						"y": 144
+					},
+					"endVertex": {
+						"id": 9,
+						"x": 256,
+						"y": 128
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 9,
+					"startVertex": {
+						"id": 8,
+						"x": 256,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 9,
+						"x": 256,
+						"y": 128
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 3,
+			"linedefs": [
+				{
+					"id": 18,
+					"startVertex": {
+						"id": 15,
+						"x": 272,
+						"y": 144
+					},
+					"endVertex": {
+						"id": 16,
+						"x": 272,
+						"y": 240
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 19,
+					"startVertex": {
+						"id": 16,
+						"x": 272,
+						"y": 240
+					},
+					"endVertex": {
+						"id": 17,
+						"x": 304,
+						"y": 240
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 20,
+					"startVertex": {
+						"id": 17,
+						"x": 304,
+						"y": 240
+					},
+					"endVertex": {
+						"id": 14,
+						"x": 304,
+						"y": 144
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 16,
+					"startVertex": {
+						"id": 14,
+						"x": 304,
+						"y": 144
+					},
+					"endVertex": {
+						"id": 15,
+						"x": 272,
+						"y": 144
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 4,
+			"linedefs": [
+				{
+					"id": 21,
+					"startVertex": {
+						"id": 16,
+						"x": 272,
+						"y": 240
+					},
+					"endVertex": {
+						"id": 18,
+						"x": 256,
+						"y": 256
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 22,
+					"startVertex": {
+						"id": 18,
+						"x": 256,
+						"y": 256
+					},
+					"endVertex": {
+						"id": 19,
+						"x": 160,
+						"y": 256
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 23,
+					"startVertex": {
+						"id": 19,
+						"x": 160,
+						"y": 256
+					},
+					"endVertex": {
+						"id": 20,
+						"x": 160,
+						"y": 336
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 24,
+					"startVertex": {
+						"id": 20,
+						"x": 160,
+						"y": 336
+					},
+					"endVertex": {
+						"id": 21,
+						"x": 384,
+						"y": 336
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 25,
+					"startVertex": {
+						"id": 21,
+						"x": 384,
+						"y": 336
+					},
+					"endVertex": {
+						"id": 22,
+						"x": 384,
+						"y": 256
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 26,
+					"startVertex": {
+						"id": 22,
+						"x": 384,
+						"y": 256
+					},
+					"endVertex": {
+						"id": 23,
+						"x": 320,
+						"y": 256
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 27,
+					"startVertex": {
+						"id": 23,
+						"x": 320,
+						"y": 256
+					},
+					"endVertex": {
+						"id": 17,
+						"x": 304,
+						"y": 240
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 19,
+					"startVertex": {
+						"id": 16,
+						"x": 272,
+						"y": 240
+					},
+					"endVertex": {
+						"id": 17,
+						"x": 304,
+						"y": 240
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 5,
+			"linedefs": [
+				{
+					"id": 28,
+					"startVertex": {
+						"id": 22,
+						"x": 384,
+						"y": 256
+					},
+					"endVertex": {
+						"id": 24,
+						"x": 416,
+						"y": 272
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 29,
+					"startVertex": {
+						"id": 24,
+						"x": 416,
+						"y": 272
+					},
+					"endVertex": {
+						"id": 25,
+						"x": 416,
+						"y": 320
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 30,
+					"startVertex": {
+						"id": 25,
+						"x": 416,
+						"y": 320
+					},
+					"endVertex": {
+						"id": 21,
+						"x": 384,
+						"y": 336
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 25,
+					"startVertex": {
+						"id": 21,
+						"x": 384,
+						"y": 336
+					},
+					"endVertex": {
+						"id": 22,
+						"x": 384,
+						"y": 256
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 6,
+			"linedefs": [
+				{
+					"id": 31,
+					"startVertex": {
+						"id": 24,
+						"x": 416,
+						"y": 272
+					},
+					"endVertex": {
+						"id": 26,
+						"x": 544,
+						"y": 192
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 32,
+					"startVertex": {
+						"id": 26,
+						"x": 544,
+						"y": 192
+					},
+					"endVertex": {
+						"id": 27,
+						"x": 544,
+						"y": 240
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 33,
+					"startVertex": {
+						"id": 27,
+						"x": 544,
+						"y": 240
+					},
+					"endVertex": {
+						"id": 25,
+						"x": 416,
+						"y": 320
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 29,
+					"startVertex": {
+						"id": 24,
+						"x": 416,
+						"y": 272
+					},
+					"endVertex": {
+						"id": 25,
+						"x": 416,
+						"y": 320
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 7,
+			"linedefs": [
+				{
+					"id": 34,
+					"startVertex": {
+						"id": 26,
+						"x": 544,
+						"y": 192
+					},
+					"endVertex": {
+						"id": 28,
+						"x": 544,
+						"y": 128
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 35,
+					"startVertex": {
+						"id": 28,
+						"x": 544,
+						"y": 128
+					},
+					"endVertex": {
+						"id": 29,
+						"x": 640,
+						"y": 128
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 36,
+					"startVertex": {
+						"id": 29,
+						"x": 640,
+						"y": 128
+					},
+					"endVertex": {
+						"id": 30,
+						"x": 640,
+						"y": 288
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 37,
+					"startVertex": {
+						"id": 30,
+						"x": 640,
+						"y": 288
+					},
+					"endVertex": {
+						"id": 31,
+						"x": 544,
+						"y": 288
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 38,
+					"startVertex": {
+						"id": 31,
+						"x": 544,
+						"y": 288
+					},
+					"endVertex": {
+						"id": 27,
+						"x": 544,
+						"y": 240
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 32,
+					"startVertex": {
+						"id": 26,
+						"x": 544,
+						"y": 192
+					},
+					"endVertex": {
+						"id": 27,
+						"x": 544,
+						"y": 240
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 8,
+			"linedefs": [
+				{
+					"id": 39,
+					"startVertex": {
+						"id": 12,
+						"x": 320,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 78,
+						"x": 480,
+						"y": 16
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 40,
+					"startVertex": {
+						"id": 78,
+						"x": 480,
+						"y": 16
+					},
+					"endVertex": {
+						"id": 79,
+						"x": 480,
+						"y": 48
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 41,
+					"startVertex": {
+						"id": 79,
+						"x": 480,
+						"y": 48
+					},
+					"endVertex": {
+						"id": 13,
+						"x": 320,
+						"y": 128
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 14,
+					"startVertex": {
+						"id": 12,
+						"x": 320,
+						"y": 96
+					},
+					"endVertex": {
+						"id": 13,
+						"x": 320,
+						"y": 128
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 9,
+			"linedefs": [
+				{
+					"id": 42,
+					"startVertex": {
+						"id": 78,
+						"x": 480,
+						"y": 16
+					},
+					"endVertex": {
+						"id": 80,
+						"x": 608,
+						"y": 16
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 43,
+					"startVertex": {
+						"id": 80,
+						"x": 608,
+						"y": 16
+					},
+					"endVertex": {
+						"id": 81,
+						"x": 576,
+						"y": 48
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 44,
+					"startVertex": {
+						"id": 81,
+						"x": 576,
+						"y": 48
+					},
+					"endVertex": {
+						"id": 79,
+						"x": 480,
+						"y": 48
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 40,
+					"startVertex": {
+						"id": 78,
+						"x": 480,
+						"y": 16
+					},
+					"endVertex": {
+						"id": 79,
+						"x": 480,
+						"y": 48
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 10,
+			"linedefs": [
+				{
+					"id": 45,
+					"startVertex": {
+						"id": 81,
+						"x": 576,
+						"y": 48
+					},
+					"endVertex": {
+						"id": 82,
+						"x": 576,
+						"y": 112
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 46,
+					"startVertex": {
+						"id": 82,
+						"x": 576,
+						"y": 112
+					},
+					"endVertex": {
+						"id": 83,
+						"x": 608,
+						"y": 112
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 47,
+					"startVertex": {
+						"id": 83,
+						"x": 608,
+						"y": 112
+					},
+					"endVertex": {
+						"id": 80,
+						"x": 608,
+						"y": 16
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 43,
+					"startVertex": {
+						"id": 80,
+						"x": 608,
+						"y": 16
+					},
+					"endVertex": {
+						"id": 81,
+						"x": 576,
+						"y": 48
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		},
+		{
+			"id": 11,
+			"linedefs": [
+				{
+					"id": 48,
+					"startVertex": {
+						"id": 82,
+						"x": 576,
+						"y": 112
+					},
+					"endVertex": {
+						"id": 28,
+						"x": 544,
+						"y": 128
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 35,
+					"startVertex": {
+						"id": 28,
+						"x": 544,
+						"y": 128
+					},
+					"endVertex": {
+						"id": 29,
+						"x": 640,
+						"y": 128
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				},
+				{
+					"id": 49,
+					"startVertex": {
+						"id": 29,
+						"x": 640,
+						"y": 128
+					},
+					"endVertex": {
+						"id": 83,
+						"x": 608,
+						"y": 112
+					},
+					"leftSidedef": "#cccccc",
+					"rightSidedef": "#cccccc"
+				},
+				{
+					"id": 46,
+					"startVertex": {
+						"id": 82,
+						"x": 576,
+						"y": 112
+					},
+					"endVertex": {
+						"id": 83,
+						"x": 608,
+						"y": 112
+					},
+					"leftSidedef": null,
+					"rightSidedef": null
+				}
+			],
+			"floorHeight": "0",
+			"ceilingHeight": "20"
+		}
+	],
+	"things": [
+		{
+			"id": 0,
+			"x": 145.5,
+			"y": 112.5,
+			"sprite": "PLAY",
+			"type": "player_starts",
+			"hex": "1"
+		}
+	]
+}
